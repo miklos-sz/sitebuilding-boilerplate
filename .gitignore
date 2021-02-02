@@ -1,0 +1,10 @@
+/dist
+/node_modules
+_Store
+*.log
+.idea
+.vscode
+.cache
+.eslintcache
+yarn.lock
+.DS_Store
