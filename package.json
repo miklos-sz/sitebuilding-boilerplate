@@ -5,6 +5,10 @@
   "main": "assets/js/app.js",
   "author": "Miklos Szilas",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/miklos-sz/sitebuilding-boilerplate"
+  },
   "dependencies": {
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
