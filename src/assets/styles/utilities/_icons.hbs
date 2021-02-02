@@ -1,0 +1,41 @@
+/* stylelint-disable */
+@font-face {
+font-family: "{{fontName}}";
+src: {{{src}}};
+font-display: swap;
+}
+
+$theme-iconfont: "{{fontName}}";
+
+$iconfonts: (
+{{#each codepoints}}
+    "{{@key}}": "\\{{this}}",
+{{/each}}
+);
+
+[class^="icon-"],
+[class*=" icon-"] {
+display: inline-block;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+&:after {
+font-family: "{{fontName}}", cursive;
+font-style: normal;
+font-weight: normal;
+vertical-align: middle;
+}
+}
+
+{{#each codepoints}}
+    ${{../classPrefix}}{{@key}}: map-get($iconfonts, '{{@key}}');
+    .{{../classPrefix}}{{@key}} {
+    &:after {
+    content: map-get($iconfonts, '{{@key}}');
+    }
+    }
+
+{{/each}}
+/* stylelint-enable */
