@@ -2,7 +2,7 @@ const mix = require('laravel-mix');
 
 const site = {
   // Set your local development site URL here
-  localUrl: 'http://aux-lp.local',
+  localUrl: 'http://yoursite.local',
 }
 
 mix.js('src/assets/scripts/main.js', 'dist')
