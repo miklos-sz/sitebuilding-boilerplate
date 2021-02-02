@@ -6,7 +6,7 @@ Simple and dynamic boilerplate for site development purposes.
 |---------------|---------------------------------------------------------:|
 | Maintainer    |                                            Miklós Szilas |
 | Email         |[szilas.miklos@gmail.com](mailto:szilas.miklos@gmail.com) |
-| Git repository|     http://github.com/sz_miklos/sitebuilding-boilerplate |
+| Git repository|     http://github.com/miklos-sz/sitebuilding-boilerplate |
 
 ## Features
 

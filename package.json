@@ -1,7 +1,7 @@
 {
-  "name": "sitebuilding-boilerplate",
+  "name": "rotovill-aux-lp",
   "version": "1.0.0",
-  "description": "Sitebuilding boilerplate",
+  "description": "Rotovill / AUX Landing Page",
   "main": "assets/js/app.js",
   "author": "Miklos Szilas",
   "license": "MIT",
